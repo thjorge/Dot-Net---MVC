@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<h2>Cadastro</h2>
+<form action="\Funcionario\Gravar" method="post">
+    <div class="form-group" >
+        <label for="id-nome">Nome</label>
+        <input type="text" class="form-control" id="id-nome" placeholder="Digite o Nome" name="nome">
+    </div>
+    <div class="form-group">
+        <label for="id-dataNasc">Data Nascimento</label>
+        <input type="date" class="form-control" id="id-dataNasc" name="data">
+    </div>
+    <div class="form-group">
+        <label for="id-sal">Salário</label>
+        <input type="number" class="form-control" id="id-sal" placeholder="Digite o Salário" name="salario">
+    </div>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+
+</form>
+
